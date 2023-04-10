@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -12,11 +14,23 @@
     <main>
         <section id="login">
             <div id="imagem">
+                <!--Imagem -->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações em seu ambiente.</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <span class="material-icons">account_circle</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail">
+                        <label for="ilogin"></label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">password</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                        <label for="isenha"></label>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

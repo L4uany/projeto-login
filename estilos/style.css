@@ -4,6 +4,10 @@
     Paleta de cores:
     Verde: #49a09d
     Lilás: #5f2c82
+
+
+    Roxo: #69305D
+    Rosa: #E99F8C
 */
 
 * {
@@ -14,7 +18,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #69305db7;
     width: 100vw;
     height: 100vh;
 
@@ -37,6 +41,8 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    transition: width 1s, height .2s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem {
@@ -49,4 +55,13 @@ main {
 #login > #formulario {
     padding: 10px;
     display: block;
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
 }

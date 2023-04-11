@@ -2,12 +2,10 @@
 
 /*
     Paleta de cores:
-    Verde: #49a09d
-    Lilás: #5f2c82
-
-
-    Roxo: #69305D
-    Rosa: #E99F8C
+    #69305db7
+    #5f2c82
+    #bc797dc4
+    #bc797d81
 */
 
 * {
@@ -37,7 +35,7 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 254px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
@@ -64,6 +62,7 @@ main {
 
 #formulario > p {
     font-size: 0.8em;
+    margin: 5px;
 }
 
 form > .campo {
@@ -72,7 +71,16 @@ form > .campo {
     height: 40px;
     display: block;
     border-radius: 5px;
-    margin: 5px;
+    margin: 5px 0px;
+}
+
+.campo > label {
+    display: none;
+}
+
+.campo > span {
+    color: white;
+    
 }
 
 form > input[type=submit] {

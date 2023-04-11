@@ -80,7 +80,11 @@ form > .campo {
 
 .campo > span {
     color: white;
-    
+    font-size: 1.5em;
+}
+
+.campo > input {
+    background-color: #bc797d09;
 }
 
 form > input[type=submit] {
